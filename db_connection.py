@@ -24,3 +24,6 @@ cursor.execute("select * from telusko.student")
 fetchall = cursor.fetchall()
 for row in fetchall:
     print(row)
+
+cursor.close()
+mydb.close()
